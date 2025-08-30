@@ -1,0 +1,16 @@
+# Ignore PyTorch model files
+*.pt
+*.onnx
+
+# Ignore Python virtual environments
+env/
+venv/
+
+# Optional: ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/

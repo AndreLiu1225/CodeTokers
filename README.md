@@ -1,16 +1,22 @@
-# tiktok_privacy
+# License Plate Detection App
 
-A new Flutter project.
+This repository contains a Flutter app and supporting resources for license plate detection using YOLO.
+
+## Directory Structure
+
+- **lib/**  
+  Contains the Flutter source code for the mobile application.
+
+- **notebooks/**  
+  Python notebooks for training the license plate detection model using YOLO.
+
+- **yolo_export/**  
+  Exported model files in various formats, including TFLite, ready for use in the Flutter app.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/AndreLiu1225/CodeTokers
+cd tiktok_privacy
