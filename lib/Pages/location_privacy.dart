@@ -81,7 +81,7 @@ class _LocationPrivacyState extends State<LocationPrivacy> {
     final jsonImage = vision.JsonImage.fromBuffer(bytes.buffer);
 
     final googleVision = vision.GoogleVision().withApiKey(
-      "AIzaSyC1gE3IaO6eLXKmJc1DsSSKSklFmUF5oX0",
+      "<YOUR_API_KEY> removed for security",
     );
     final landmarkDetection = await googleVision.image.landmarkDetection(
       jsonImage,
